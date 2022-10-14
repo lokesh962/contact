@@ -1,0 +1,73 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    top: 0px;
+    position: absolute;
+    background: url('static/danielle-cerullo-CQfNt66ttZM-unsplash.jpg')no-repeat center center;
+    
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    padding: 3px 20px;
+}
+
+.container{
+    margin: 12px auto;
+    padding: 10px;
+    /* background-color: aqua; */
+    max-width: 50%;
+    color: white;
+}
+
+input,textarea{
+    display: block;
+    margin: 17px auto;
+    padding: 9px;
+    width: 100%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.btn{
+    display: block;
+    margin: 16px auto;
+    padding: 12px 86px;
+    border-radius: 19px;
+    background: mediumspringgreen;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+
